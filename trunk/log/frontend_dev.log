@@ -15,3 +15,20 @@ May 12 18:53:39 symfony [info] {sfWebDebugLogger} Configuration 424.31 ms (9)
 May 12 18:53:39 symfony [info] {sfWebDebugLogger} Action "default/index" 0.16 ms (1)
 May 12 18:53:39 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 50.85 ms (1)
 May 12 18:53:39 symfony [info] {sfWebResponse} Send content (28232 o)
+May 12 19:02:01 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 12 19:02:01 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 12 19:02:01 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 12 19:02:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 12 19:02:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 12 19:02:01 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 12 19:02:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 12 19:02:01 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 12 19:02:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\lib\symfony/controller/default/templates/indexSuccess.php"
+May 12 19:02:01 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\lib\symfony\controller\default\templates/defaultLayout.php"
+May 12 19:02:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\lib\symfony\controller\default\templates/defaultLayout.php"
+May 12 19:02:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 12 19:02:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 12 19:02:01 symfony [info] {sfWebDebugLogger} Configuration 60.51 ms (9)
+May 12 19:02:01 symfony [info] {sfWebDebugLogger} Action "default/index" 0.16 ms (1)
+May 12 19:02:01 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 57.54 ms (1)
+May 12 19:02:01 symfony [info] {sfWebResponse} Send content (28524 o)
