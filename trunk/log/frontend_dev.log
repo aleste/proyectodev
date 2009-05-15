@@ -4529,3 +4529,650 @@ May 15 14:35:12 symfony [info] {sfWebDebugLogger} Configuration 41.59 ms (9)
 May 15 14:35:12 symfony [info] {sfWebDebugLogger} Action "default/index" 0.22 ms (1)
 May 15 14:35:12 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 47.36 ms (1)
 May 15 14:35:12 symfony [info] {sfWebResponse} Send content (29923 o)
+May 15 14:39:03 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:39:03 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:39:03 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:39:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:39:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:39:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:39:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:39:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:39:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:39:03 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 15 14:39:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:39:03 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:39:03 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:39:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:39:03 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 15 14:39:03 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\lib\symfony/controller/default/templates/indexSuccess.php"
+May 15 14:39:03 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\lib\symfony\controller\default\templates/defaultLayout.php"
+May 15 14:39:03 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\lib\symfony\controller\default\templates/defaultLayout.php"
+May 15 14:39:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:39:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:39:03 symfony [info] {sfWebDebugLogger} Configuration 48.02 ms (9)
+May 15 14:39:03 symfony [info] {sfWebDebugLogger} Action "default/index" 0.56 ms (1)
+May 15 14:39:03 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 52.71 ms (1)
+May 15 14:39:03 symfony [info] {sfWebResponse} Send content (29923 o)
+May 15 14:40:35 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:40:35 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:40:35 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:40:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:40:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:40:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:40:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:40:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:40:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:40:35 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:40:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:40:35 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:40:35 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:40:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:40:35 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:40:35 symfony [info] {principalActions} Forward to action "default/module"
+May 15 14:40:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:40:35 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:40:35 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:40:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:40:35 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+May 15 14:40:35 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\lib\symfony/controller/default/templates/moduleSuccess.php"
+May 15 14:40:35 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\lib\symfony\controller\default\templates/defaultLayout.php"
+May 15 14:40:35 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\lib\symfony\controller\default\templates/defaultLayout.php"
+May 15 14:40:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:40:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:40:35 symfony [info] {sfWebDebugLogger} Configuration 127.58 ms (13)
+May 15 14:40:35 symfony [info] {sfWebDebugLogger} Action "principal/index" 84.27 ms (1)
+May 15 14:40:35 symfony [info] {sfWebDebugLogger} Action "default/module" 0.21 ms (1)
+May 15 14:40:35 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 44.51 ms (1)
+May 15 14:40:35 symfony [info] {sfWebResponse} Send content (32131 o)
+May 15 14:41:06 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:41:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:41:06 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:41:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:41:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:41:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:41:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:41:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:41:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:41:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:41:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:41:06 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:41:06 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:41:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:41:06 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:41:06 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:41:06 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layout.php"
+May 15 14:41:06 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layout.php"
+May 15 14:41:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:41:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:41:06 symfony [info] {sfWebDebugLogger} Configuration 94.56 ms (10)
+May 15 14:41:06 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.23 ms (1)
+May 15 14:41:06 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 77.58 ms (1)
+May 15 14:41:06 symfony [info] {sfWebResponse} Send content (29174 o)
+May 15 14:43:15 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:43:15 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:43:15 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:43:15 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:43:15 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:43:15 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:43:15 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:43:15 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:43:15 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:43:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:43:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:43:15 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:43:15 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:43:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:43:15 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:43:15 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:43:15 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layout.php"
+May 15 14:43:15 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layout.php"
+May 15 14:43:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:43:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:43:15 symfony [info] {sfWebDebugLogger} Configuration 64.69 ms (9)
+May 15 14:43:15 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.22 ms (1)
+May 15 14:43:15 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 44.73 ms (1)
+May 15 14:43:15 symfony [info] {sfWebResponse} Send content (29173 o)
+May 15 14:49:37 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:49:37 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:49:37 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:49:37 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:49:37 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:49:37 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:49:37 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:49:37 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:49:37 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:49:37 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:49:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:49:37 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:49:37 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:49:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:49:37 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:49:37 symfony [err] {sfRenderException} The decorator template "layoutPrincipal.php" does not exist or is unreadable in "".
+May 15 14:49:54 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:49:54 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:49:54 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:49:54 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:49:54 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:49:54 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:49:54 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:49:54 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:49:54 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:49:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:49:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:49:54 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:49:54 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:49:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:49:54 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:49:54 symfony [err] {sfRenderException} The decorator template "layoutPrincipal.php" does not exist or is unreadable in "".
+May 15 14:50:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:50:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:50:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:50:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:50:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:50:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:50:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:50:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:50:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:50:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:50:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:50:14 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:50:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:50:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:50:14 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:50:14 symfony [err] {sfRenderException} The decorator template "layoutPrincipal.php" does not exist or is unreadable in "".
+May 15 14:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:50:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:50:17 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:50:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:50:17 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:50:17 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:50:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:50:17 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:50:17 symfony [err] {sfRenderException} The decorator template "layoutPrincipal.php" does not exist or is unreadable in "".
+May 15 14:50:27 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:50:27 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:50:27 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:50:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:50:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:50:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:50:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:50:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:50:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:50:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:50:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:50:27 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:50:27 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:50:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:50:27 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:50:27 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:50:27 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:50:27 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:50:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:50:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:50:27 symfony [info] {sfWebDebugLogger} Configuration 41.10 ms (9)
+May 15 14:50:27 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.22 ms (1)
+May 15 14:50:27 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 61.30 ms (1)
+May 15 14:50:27 symfony [info] {sfWebResponse} Send content (28874 o)
+May 15 14:51:17 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:51:17 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:51:17 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:51:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:51:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:51:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:51:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:51:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:51:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:51:17 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:51:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:51:17 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:51:17 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:51:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:51:17 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:51:17 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:51:17 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:51:17 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:51:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:51:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:51:17 symfony [info] {sfWebDebugLogger} Configuration 80.63 ms (10)
+May 15 14:51:17 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.22 ms (1)
+May 15 14:51:17 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 84.05 ms (1)
+May 15 14:51:17 symfony [info] {sfWebResponse} Send content (28831 o)
+May 15 14:52:40 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:52:40 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:52:40 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:52:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:52:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:52:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:52:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:52:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:52:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:52:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:52:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:52:40 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:52:40 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:52:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:52:40 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:52:40 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:52:40 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:52:40 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:52:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:52:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:52:40 symfony [info] {sfWebDebugLogger} Configuration 38.89 ms (9)
+May 15 14:52:40 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.38 ms (1)
+May 15 14:52:40 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 41.15 ms (1)
+May 15 14:52:40 symfony [info] {sfWebResponse} Send content (29010 o)
+May 15 14:53:06 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:53:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:53:06 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:53:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:53:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:53:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:53:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:53:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:53:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:53:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:53:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:53:06 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:53:06 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:53:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:53:06 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:53:06 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:53:06 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:53:06 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:53:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:53:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:53:06 symfony [info] {sfWebDebugLogger} Configuration 41.14 ms (9)
+May 15 14:53:06 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.25 ms (1)
+May 15 14:53:06 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 43.59 ms (1)
+May 15 14:53:06 symfony [info] {sfWebResponse} Send content (29122 o)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:53:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:53:08 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:53:08 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:53:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:53:08 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:53:08 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:53:08 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:53:08 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:53:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:53:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:53:08 symfony [info] {sfWebDebugLogger} Configuration 101.72 ms (9)
+May 15 14:53:08 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.22 ms (1)
+May 15 14:53:08 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 116.41 ms (1)
+May 15 14:53:08 symfony [info] {sfWebResponse} Send content (29124 o)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:53:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:53:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:53:08 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:53:08 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:53:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:53:08 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:53:08 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:53:08 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:53:08 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:53:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:53:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:53:08 symfony [info] {sfWebDebugLogger} Configuration 119.25 ms (9)
+May 15 14:53:08 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.30 ms (1)
+May 15 14:53:08 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 41.23 ms (1)
+May 15 14:53:08 symfony [info] {sfWebResponse} Send content (29123 o)
+May 15 14:53:13 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:53:13 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:53:13 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:53:13 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:53:13 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:53:13 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:53:13 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:53:13 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:53:13 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:53:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:53:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:53:13 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:53:13 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:53:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:53:13 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:53:13 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:53:13 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:53:13 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:53:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:53:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:53:13 symfony [info] {sfWebDebugLogger} Configuration 714.00 ms (9)
+May 15 14:53:13 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.32 ms (1)
+May 15 14:53:13 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 56.36 ms (1)
+May 15 14:53:13 symfony [info] {sfWebResponse} Send content (29123 o)
+May 15 14:53:25 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:53:25 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:53:25 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:53:25 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:53:25 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:53:25 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:53:25 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:53:25 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:53:25 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:53:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:53:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:53:26 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:53:26 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:53:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:53:26 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:53:26 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:53:26 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:53:26 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:53:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:53:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:53:26 symfony [info] {sfWebDebugLogger} Configuration 46.51 ms (9)
+May 15 14:53:26 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.23 ms (1)
+May 15 14:53:26 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 48.52 ms (1)
+May 15 14:53:26 symfony [info] {sfWebResponse} Send content (29032 o)
+May 15 14:55:01 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:55:01 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:55:01 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:55:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:55:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:55:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:55:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:55:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:55:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:55:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:55:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:55:01 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:55:01 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:55:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:55:01 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:55:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:55:01 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:55:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:55:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:55:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:55:01 symfony [info] {sfWebDebugLogger} Configuration 38.97 ms (9)
+May 15 14:55:01 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.22 ms (1)
+May 15 14:55:01 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 32.24 ms (1)
+May 15 14:55:01 symfony [info] {sfWebResponse} Send content (29171 o)
+May 15 14:56:47 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:56:47 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:56:47 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:56:47 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:56:47 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:56:47 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:56:47 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:56:47 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:56:47 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:56:47 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:56:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:56:47 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:56:47 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:56:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:56:47 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:56:47 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:56:47 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:56:47 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:56:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:56:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:56:47 symfony [info] {sfWebDebugLogger} Configuration 41.04 ms (9)
+May 15 14:56:47 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.29 ms (1)
+May 15 14:56:47 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 44.54 ms (1)
+May 15 14:56:47 symfony [info] {sfWebResponse} Send content (29152 o)
+May 15 14:57:42 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:57:42 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:57:42 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:57:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:57:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:57:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:57:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:57:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:57:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:57:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:57:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:57:42 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:57:42 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:57:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:57:42 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:57:42 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:57:42 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:57:42 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:57:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:57:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:57:42 symfony [info] {sfWebDebugLogger} Configuration 60.29 ms (9)
+May 15 14:57:42 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.22 ms (1)
+May 15 14:57:42 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 46.57 ms (1)
+May 15 14:57:42 symfony [info] {sfWebResponse} Send content (29881 o)
+May 15 14:57:46 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:57:46 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:57:46 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:57:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:57:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:57:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:57:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:57:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:57:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:57:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:57:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:57:46 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:57:46 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:57:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:57:46 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:57:46 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:57:46 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:57:46 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:57:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:57:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:57:46 symfony [info] {sfWebDebugLogger} Configuration 53.39 ms (9)
+May 15 14:57:46 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.22 ms (1)
+May 15 14:57:46 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 40.18 ms (1)
+May 15 14:57:46 symfony [info] {sfWebResponse} Send content (29881 o)
+May 15 14:58:16 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:58:16 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:58:16 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:58:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:58:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:58:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:58:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:58:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:58:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:58:16 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:58:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:58:16 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:58:16 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:58:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:58:16 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:58:16 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:58:16 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:58:16 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:58:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:58:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:58:16 symfony [info] {sfWebDebugLogger} Configuration 37.41 ms (9)
+May 15 14:58:16 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.21 ms (1)
+May 15 14:58:16 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 46.19 ms (1)
+May 15 14:58:16 symfony [info] {sfWebResponse} Send content (29900 o)
+May 15 14:59:30 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 14:59:30 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 14:59:30 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 14:59:30 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:59:30 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:59:30 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:59:30 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 14:59:30 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 14:59:30 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 14:59:30 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 14:59:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 14:59:30 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 14:59:30 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 14:59:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 14:59:30 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 14:59:30 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 14:59:30 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:59:30 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 14:59:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 14:59:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 14:59:30 symfony [info] {sfWebDebugLogger} Configuration 43.85 ms (9)
+May 15 14:59:30 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.22 ms (1)
+May 15 14:59:30 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 37.13 ms (1)
+May 15 14:59:30 symfony [info] {sfWebResponse} Send content (29900 o)
+May 15 15:00:07 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 15:00:07 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 15:00:07 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 15:00:07 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 15:00:07 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 15:00:07 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 15:00:07 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 15:00:07 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 15:00:07 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 15:00:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 15:00:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 15:00:07 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 15:00:07 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 15:00:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 15:00:07 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 15:00:07 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 15:00:07 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 15:00:07 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 15:00:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 15:00:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 15:00:07 symfony [info] {sfWebDebugLogger} Configuration 45.38 ms (9)
+May 15 15:00:07 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.22 ms (1)
+May 15 15:00:07 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 42.34 ms (1)
+May 15 15:00:07 symfony [info] {sfWebResponse} Send content (29171 o)
+May 15 15:00:13 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 15:00:13 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 15:00:13 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 15:00:13 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 15:00:13 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 15:00:13 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 15:00:13 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 15:00:13 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 15:00:13 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 15:00:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 15:00:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 15:00:14 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 15:00:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 15:00:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 15:00:14 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 15:00:14 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 15:00:14 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 15:00:14 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 15:00:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 15:00:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 15:00:14 symfony [info] {sfWebDebugLogger} Configuration 39.71 ms (9)
+May 15 15:00:14 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.23 ms (1)
+May 15 15:00:14 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 36.01 ms (1)
+May 15 15:00:14 symfony [info] {sfWebResponse} Send content (29167 o)
+May 15 15:00:27 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 15:00:27 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 15:00:27 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 15:00:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 15:00:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 15:00:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 15:00:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 15:00:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 15:00:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 15:00:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 15:00:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 15:00:27 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 15:00:27 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 15:00:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 15:00:27 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 15:00:27 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 15:00:27 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 15:00:27 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 15:00:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 15:00:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 15:00:27 symfony [info] {sfWebDebugLogger} Configuration 47.24 ms (9)
+May 15 15:00:27 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.22 ms (1)
+May 15 15:00:27 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 45.29 ms (1)
+May 15 15:00:28 symfony [info] {sfWebResponse} Send content (29148 o)
+May 15 15:01:35 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 15:01:35 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 15:01:35 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 15:01:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 15:01:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 15:01:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 15:01:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 15:01:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 15:01:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 15:01:35 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 15:01:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 15:01:35 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 15:01:35 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 15:01:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 15:01:35 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 15:01:35 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 15:01:35 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 15:01:35 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 15:01:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 15:01:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 15:01:35 symfony [info] {sfWebDebugLogger} Configuration 38.19 ms (9)
+May 15 15:01:35 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.22 ms (1)
+May 15 15:01:35 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 41.60 ms (1)
+May 15 15:01:35 symfony [info] {sfWebResponse} Send content (29160 o)
+May 15 15:01:46 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 15:01:46 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 15:01:46 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 15:01:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 15:01:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 15:01:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 15:01:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 15:01:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 15:01:46 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 15:01:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 15:01:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 15:01:46 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 15:01:46 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 15:01:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 15:01:46 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 15:01:46 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 15:01:46 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 15:01:46 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 15:01:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 15:01:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 15:01:46 symfony [info] {sfWebDebugLogger} Configuration 39.09 ms (9)
+May 15 15:01:46 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.22 ms (1)
+May 15 15:01:46 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 34.97 ms (1)
+May 15 15:01:47 symfony [info] {sfWebResponse} Send content (29148 o)
+May 15 15:05:31 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 15:05:31 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 15:05:31 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 15:05:31 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 15:05:31 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 15:05:31 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 15:05:31 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 15 15:05:31 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 15 15:05:31 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 15 15:05:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'principal',  'action' => 'index',)
+May 15 15:05:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 15:05:31 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 15 15:05:31 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 15:05:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 15:05:31 symfony [info] {principalActions} Call "principalActions->executeIndex()"
+May 15 15:05:31 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\modules/principal/templates/indexSuccess.php"
+May 15 15:05:31 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 15:05:31 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\apps\frontend\templates/layoutPrincipal.php"
+May 15 15:05:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 15:05:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 15:05:31 symfony [info] {sfWebDebugLogger} Configuration 50.87 ms (9)
+May 15 15:05:31 symfony [info] {sfWebDebugLogger} Action "principal/index" 0.32 ms (1)
+May 15 15:05:31 symfony [info] {sfWebDebugLogger} View "Success" for "principal/index" 46.38 ms (1)
+May 15 15:05:31 symfony [info] {sfWebResponse} Send content (29162 o)
