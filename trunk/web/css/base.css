@@ -88,7 +88,35 @@ a:hover {
 	text-decoration: none;
 	color: #618FEB;
 }
-
+/*-------------------------hnav-------------------------------*/
+#hnav{
+padding:0;
+font-weight:700;
+text-decoration:none;
+bottom:0;
+left:0;
+height:22px;
+width:100%;
+line-height:21px;
+z-index:99;
+background:url(/images/stripe_blue_h.png) repeat-x 0 50%;
+text-align:center;
+color:#fff;
+}
+#hnavmenu{
+padding:0;
+font-weight:700;
+text-decoration:none;
+bottom:0;
+left:0;
+height:23px;
+width:100%;
+line-height:21px;
+z-index:99;
+background: #DDD;
+text-align:center;
+color:#fff;
+}
 
 /* ------------------------ banner -------------------------- */
 #banner{

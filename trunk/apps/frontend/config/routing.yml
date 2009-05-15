@@ -3,6 +3,10 @@ homepage:
   url:   /
   param: { module: principal, action: index }
 
+loginpage:
+  url:   /
+  param: { module: default, action: index }
+
 default_index:
   url:   /:module
   param: { action: index }

@@ -3,7 +3,7 @@ all:
   sf_guard_plugin:
     routes_register: true
     algorithm_callable: md5
-    success_signin_url:      @homepage
-    success_signout_url:     module/action         # the plugin use the referer as default
+    success_signin_url:     @homepage
+    success_signout_url:    @loginpage         # the plugin use the referer as default
    # remember_key_expiration_age:  2592000   # 30 days in seconds
    # remember_cookie_name:         sistemaBaseRememberMe
