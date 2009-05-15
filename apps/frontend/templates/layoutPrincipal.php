@@ -14,10 +14,16 @@
                 
                 <div id="pagebody">
                         <div id="pagebody-inner" class="pkg">
-                            <div class='hnav'>
-                            NAV
-                                <?php //include('_nav.php') ?>
+                            <div id='hnav'>
+                                barrita
                             </div>
+                             <div id='hnavmenu'>
+                            <div id='navmenu'>
+                                    <?php include_partial('sfBreadNav/navmenu', array('menu' => 'menuPrincipal')) ?>
+                            </div>
+
+                            </div>
+                            
                             <div id="alpha">
                                 <div id="alpha-inner" class="pkg content">
                                    <?php echo $sf_content ?>
