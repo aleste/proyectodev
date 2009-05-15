@@ -31,6 +31,16 @@ all:
     # Cache settings
     lazy_cache_key:         on        # Delays creation of a cache key until after checking whether an action or partial is cacheable
 
+    #Configuraciones sfGuard
+    login_module:           sfGuardAuth   # To be called when a non-authenticated user
+    login_action:           signin     # Tries to access a secure page
+
+    secure_module:          sfGuardAuth   # To be called when a user doesn't have
+    secure_action:          secure    # The credentials required for an action
+
+
+    enabled_modules:        [default, sfGuardAuth]
+
 #all:
 #  .actions:
 #    error_404_module:       default   # To be called when a 404 error is raised
@@ -48,7 +58,7 @@ all:
 #  .settings:
 #    # Optional features. Deactivating unused features boots performance a bit.
 #    use_database:           on        # Enable database manager. Set to off if you don't use a database.
-#    i18n:                   off       # Enable interface translation. Set to off if your application should not be translated.
+    i18n:                   on       # Enable interface translation. Set to off if your application should not be translated.
 #    check_symfony_version:  off       # Enable check of symfony version for every request. Set to on to have symfony clear the cache automatically when the framework is upgraded. Set to off if you always clear the cache after an upgrade.
 #    compressed:             off       # Enable PHP response compression. Set to on to compress the outgoing HTML via the PHP handler.
 #    check_lock:             off       # Enable the application lock system triggered by the clear-cache and disable tasks. Set to on to have all requests to disabled applications redirected to the $sf_symfony_lib_dir/exception/data/unavailable.php page.
@@ -78,7 +88,7 @@ all:
 #    calendar_web_dir:       /sf/calendar
 #
 #    # Helpers included in all templates by default
-#    standard_helpers:       [Partial, Cache, Form]
+    standard_helpers:       [Partial, Cache, Form, I18N]
 #
 #    # Activated modules from plugins or from the symfony core
 #    enabled_modules:        [default]
@@ -94,4 +104,5 @@ all:
 #    logging_enabled:        on
 #
 #    # i18n
-#    default_culture:        en        # Default user culture
+    default_culture:        es        # Default user culture
+
