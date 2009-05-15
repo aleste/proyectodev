@@ -32,3 +32,39 @@ May 12 19:02:01 symfony [info] {sfWebDebugLogger} Configuration 60.51 ms (9)
 May 12 19:02:01 symfony [info] {sfWebDebugLogger} Action "default/index" 0.16 ms (1)
 May 12 19:02:01 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 57.54 ms (1)
 May 12 19:02:01 symfony [info] {sfWebResponse} Send content (28524 o)
+May 15 10:01:54 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 10:01:54 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 10:01:54 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 10:01:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 15 10:01:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 10:01:54 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 10:01:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 10:01:54 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 15 10:01:54 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\lib\symfony/controller/default/templates/indexSuccess.php"
+May 15 10:01:54 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\lib\symfony\controller\default\templates/defaultLayout.php"
+May 15 10:01:54 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\lib\symfony\controller\default\templates/defaultLayout.php"
+May 15 10:01:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 10:01:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 10:01:54 symfony [info] {sfWebDebugLogger} Configuration 464.52 ms (9)
+May 15 10:01:54 symfony [info] {sfWebDebugLogger} Action "default/index" 0.22 ms (1)
+May 15 10:01:54 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 44.07 ms (1)
+May 15 10:01:54 symfony [info] {sfWebResponse} Send content (27052 o)
+May 15 10:42:50 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+May 15 10:42:50 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+May 15 10:42:50 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+May 15 10:42:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 15 10:42:50 symfony [info] {myUser} Automatic user logout due to timeout
+May 15 10:42:50 symfony [info] {myUser} User is not authenticated
+May 15 10:42:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 15 10:42:50 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+May 15 10:42:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 15 10:42:50 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 15 10:42:50 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\lib\symfony/controller/default/templates/indexSuccess.php"
+May 15 10:42:50 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\proyectobase\trunk\lib\symfony\controller\default\templates/defaultLayout.php"
+May 15 10:42:50 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\proyectobase\trunk\lib\symfony\controller\default\templates/defaultLayout.php"
+May 15 10:42:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 15 10:42:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 15 10:42:50 symfony [info] {sfWebDebugLogger} Configuration 760.13 ms (9)
+May 15 10:42:50 symfony [info] {sfWebDebugLogger} Action "default/index" 0.34 ms (1)
+May 15 10:42:50 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 46.64 ms (1)
+May 15 10:42:50 symfony [info] {sfWebResponse} Send content (27656 o)
