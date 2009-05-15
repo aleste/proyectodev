@@ -11,7 +11,7 @@ all:
     class: sfPropelDatabase
     param:
       classname: PropelPDO
-      dsn: 'sqlite:%SF_DATA_DIR%/sandbox.db'
+      dsn: 'mysql:host=localhost;dbname=proyectobase'
       username: root
       password: null
       encoding: utf8
