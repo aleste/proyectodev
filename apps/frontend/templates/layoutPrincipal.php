@@ -29,6 +29,7 @@
                                    <?php echo $sf_content ?>
                                </div>
                               </div>
+                              
                                <div class="clear">&nbsp;</div>
                         </div>
 

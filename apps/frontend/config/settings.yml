@@ -39,7 +39,7 @@ all:
     secure_action:          secure    # The credentials required for an action
 
 
-    enabled_modules:        [default, sfGuardAuth, sfGuardUser, sfBreadNavAdmin]
+    enabled_modules:        [default, sfGuardAuth, sfGuardUser, sfBreadNavAdmin, sfGuardPermission, sfGuardGroup]
 
 #all:
 #  .actions:
