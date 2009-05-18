@@ -23,6 +23,7 @@
     echo "<div id='breadnavmenuHdiv' class='$menu'><ul id='breadnavul' class='$menu'>"; 
     if (in_array($root->getCredential(),$credArray  )) {
       echo "<li class='first top'>". navbardisplayfunctions::link_to_valid( $root->getPage(), $root->getModule(), $root->getAction(), array('class' => 'first top'))  ."</li>\n";
+     
     }  
    
     $nexttop = 0;
@@ -34,21 +35,41 @@
          $nexttop = ($pages[$i]['tree_right'] + 1) / 2 - 1; 
          
          if ($havechildren){
-           $open = "<li class='breadnavdivider'>". '<a class=top href=' . navbardisplayfunctions::url_for_valid(navbarfunctions::pageroute($pages[$i]['module'],$pages[$i]['action'])) . ">" . $pages[$i]['page'] . $cssie56open."<ul>";
+           if($pages[$i]['module']=='default' && $pages[$i]['action']=='none'){
+               $open = "<li class='breadnavdivider'>". '<a class=top href="#">' . $pages[$i]['page'] . $cssie56open."<ul>";
+           }else{
+                $open = "<li class='breadnavdivider'>". '<a class=top href=' . navbardisplayfunctions::url_for_valid(navbarfunctions::pageroute($pages[$i]['module'],$pages[$i]['action'])) . ">" . $pages[$i]['page'] . $cssie56open."<ul>";
+           }
            $close = '</ul>' . $cssie56close ."</li>\n";
          }else{
-           $open = "<li class='breadnavdivider'>". '<a class=top href=' . navbardisplayfunctions::url_for_valid(navbarfunctions::pageroute($pages[$i]['module'],$pages[$i]['action'])) . ">" . $pages[$i]['page'] . $cssie56open;
+             if($pages[$i]['module']=='default' && $pages[$i]['action']=='none'){
+                $open = "<li class='breadnavdivider'>". '<a class=top href="#"' . ">" . $pages[$i]['page'] . $cssie56open;
+           }else{
+                $open = "<li class='breadnavdivider'>". '<a class=top href=' . navbardisplayfunctions::url_for_valid(navbarfunctions::pageroute($pages[$i]['module'],$pages[$i]['action'])) . ">" . $pages[$i]['page'] . $cssie56open;
+           }
+           //$open = "<li class='breadnavdivider'>". '<a class=top href=' . navbardisplayfunctions::url_for_valid(navbarfunctions::pageroute($pages[$i]['module'],$pages[$i]['action'])) . ">" . $pages[$i]['page'] . $cssie56open;
+           
            $close = $cssie56close ."</li>\n";
          }
       
       //no children   
-      }elseif ($pages[$i]['tree_right'] - $pages[$i]['tree_left'] == 1) {                 
-           $open = "<li class='standard' >"  . '<a class=standard href=' . navbardisplayfunctions::url_for_valid(navbarfunctions::pageroute($pages[$i]['module'],$pages[$i]['action'])) . ">" . $pages[$i]['page'] . '</a>'.$cssff2;
+      }elseif ($pages[$i]['tree_right'] - $pages[$i]['tree_left'] == 1) {
+           if($pages[$i]['module']=='default' && $pages[$i]['action']=='none'){
+                $open = "<li class='standard' >"  . '<a class=standard href="#"'. ">" . $pages[$i]['page'] . '</a>'.$cssff2;
+           }else{
+                $open = "<li class='standard' >"  . '<a class=standard href=' . navbardisplayfunctions::url_for_valid(navbarfunctions::pageroute($pages[$i]['module'],$pages[$i]['action'])) . ">" . $pages[$i]['page'] . '</a>'.$cssff2;
+           }
+
            $close = "</li>\n";         
       //has children                 
       }else{
-    
-          $open = "<li class='standard'>" . '<a class=standard href=' . navbardisplayfunctions::url_for_valid(navbarfunctions::pageroute($pages[$i]['module'],$pages[$i]['action'])) . ">"  . $pages[$i]['page'] . $cssie56open   . $cssff2 . "<ul>";
+             if($pages[$i]['module']=='default' && $pages[$i]['action']=='none'){
+               $open = "<li class='standard'>" . '<a class=standard href="#"' . ">"  . $pages[$i]['page'] .' »'. $cssie56open   . $cssff2 . "<ul>";
+           }else{
+               $open = "<li class='standard'>" . '<a class=standard href=' . navbardisplayfunctions::url_for_valid(navbarfunctions::pageroute($pages[$i]['module'],$pages[$i]['action'])) . ">"  . $pages[$i]['page'] . $cssie56open   . $cssff2 . "<ul>";
+           }
+
+          
           $close =  "</ul>". $cssie56close ."</li>\n";
                  
       }
