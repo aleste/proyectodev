@@ -979,3 +979,15 @@ big{font-size:120%;}
 .pageContent {text-align:center}
 #first-graph{margin-top:20px;}
 .css_class{background:red;}
+
+
+
+#panelAccesosRapidos{
+    width:100%;
+    height:40%;
+    display: table;
+    border: 1px solid gray;
+    background: lightgray;       
+    padding: 10px;
+    text-align: center;
+}
