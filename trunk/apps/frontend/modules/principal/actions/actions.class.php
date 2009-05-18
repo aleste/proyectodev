@@ -19,4 +19,5 @@ class principalActions extends sfActions
   {
     //$this->forward('default', 'module');
   }
+
 }
