@@ -16,7 +16,7 @@
                         <div id="pagebody-inner" class="pkg">
                       
                             <div id='hnav'>
-                                Sistema de Gestión
+                                Nombre del Cliente - Sistema de Gestión
                             </div>
 
                            
