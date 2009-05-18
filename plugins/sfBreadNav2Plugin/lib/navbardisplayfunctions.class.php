@@ -18,6 +18,7 @@ try {
 } catch (Exception $e) {
  $link =   link_to($page , "http://routenotfound" , $options);  
 }
+
  return $link;
 }
 
