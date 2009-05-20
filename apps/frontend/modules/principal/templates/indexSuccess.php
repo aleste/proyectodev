@@ -1,6 +1,5 @@
 <div id="panelAccesosRapidos">
-    <?php include_partial('panelAccesosRapidos') ?>
-    Aj
+    <?php include_partial('panelAccesosRapidos') ?>    
 </div>
 
             
