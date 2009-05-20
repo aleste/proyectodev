@@ -40,8 +40,7 @@
                 </div>
 
             <div id="footer">
-              Pie
-              <?php //include('_footer.php') ?>
+                            
             </div>
 
             </div>
