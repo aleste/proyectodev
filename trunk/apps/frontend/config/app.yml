@@ -5,5 +5,7 @@ all:
     algorithm_callable: md5
     success_signin_url:     @homepage
     success_signout_url:    @loginpage         # the plugin use the referer as default
+    profile_class:  sfGuardUserProfile
+    profile_field_name: user_id
    # remember_key_expiration_age:  2592000   # 30 days in seconds
    # remember_cookie_name:         sistemaBaseRememberMe
