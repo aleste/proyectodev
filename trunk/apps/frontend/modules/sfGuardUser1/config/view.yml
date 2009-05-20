@@ -1,0 +1,5 @@
+default:
+  stylesheets:    [main.css, base.css, sistema.css, menuh.css]
+
+  has_layout:     on
+  layout:         layoutPrincipal
