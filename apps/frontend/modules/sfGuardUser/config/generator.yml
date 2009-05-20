@@ -15,17 +15,18 @@ generator:
         password_again: { label: "Password (again)" }
 
       list:
-        title:   User list
+        title:   Lista de Usuarios
         display: [=username, created_at, last_login]
 
       form:
         class: sfGuardUserAdminForm
         display:
+          "User Profile":           [ apellido, nombre]
           "NONE":                   [username, password, password_again]
           "Permissions and groups": [is_active, is_super_admin, sf_guard_user_group_list, sf_guard_user_permission_list]
 
       edit:
-        title: Editing User "%%username%%"
+        title: Editando usuario "%%username%%"
 
       new:
         title: New User
