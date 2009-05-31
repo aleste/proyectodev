@@ -18,10 +18,14 @@ generator:
         title:   User list
         display: [=username, created_at, last_login]
 
+      filter:
+        display: [username, created_at]
+        
       form:
         class: sfGuardUserAdminForm
         display:
           "NONE":                   [username, password, password_again]
+          "Datos de Usuarios":      [apellido, nombre]
           "Permissions and groups": [is_active, is_super_admin, sf_guard_user_group_list, sf_guard_user_permission_list]
 
       edit:

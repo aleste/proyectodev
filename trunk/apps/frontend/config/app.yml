@@ -9,3 +9,8 @@ all:
     profile_field_name: user_id
    # remember_key_expiration_age:  2592000   # 30 days in seconds
    # remember_cookie_name:         sistemaBaseRememberMe
+
+  sfDateTimePlugin:
+    format_human: %d/%m/%Y
+    format_database: %Y-%m-%d
+    format_system: %d/%m/%Y
