@@ -1,0 +1,1 @@
+Base para desarrollo de proyectos. El objetivos es desarrollar un entorno base con sfGuard y un menú de opciones que maneje credenciales.
